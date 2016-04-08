@@ -1,0 +1,42 @@
+
+<div class="redbg">
+
+ 
+   			 <div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(1)"></div>
+   			
+                 
+             <div class="text-center">
+                <p class="pclass">DASHBOARD</p>
+             </div> 
+            
+            
+         <!--  <div class="fa fa-sign-out logoutdiv" ng-click="AppCtrl.changePage(1)">
+                  
+                </div>  -->
+               <div class="imgham logoutdiv" ng-click="toggle()"></div>
+                <div id="rightpanel" pageslide ps-open="checked1" ps-push="true" style="background-color:#2a2a2a" ps-auto-close = "checked2">
+                    <div style="padding:20px" id="demo-right">
+                  <ul>
+                    	 <li id="abimg" class="slidemenu" ng-click="AppCtrl.changePage(9);"><img class="aboutimage"/><label class="labelpanel">About</label></li>
+                          <li id="notimg" class="slidemenu" ng-click="notifscreen(7);"><img class="notifimage"/><label class="labelpanel">Notifications</label></li>
+   						  <li id="logimg" class="slidemenu" ng-click="logout(1)"><img class="signoutimage"/><label class="labelpanel">Sign Out</label></li>
+   						   <li id="setimg" class="slidemenu" ng-model="collapsed" ng-click="collapsed=!collapsed"><img class="settingimage"/><label class="labelpanel">Settings</label>
+							<ul ng-show="collapsed">
+   								 <li class="slidesubmenu" ng-click="AppCtrl.changePage(6);"><label class="labelpanel lab">Change Password</label></li>
+    							
+    						</ul>
+   						  </li> 
+    				</ul> 
+    				    		      
+                      <!--   <a ng-click="toggle()" class="button" >Close</a> -->
+                    </div>
+                </div>
+    
+</div>
+<div style="background-color:white !important; height:530px !important;  margin-top: -30px" ng-click="togglebody();">
+<!-- <div class="container"> -->
+    <div id="rectangle1" ng-click="clickOnListItem();"><label class="undercircle" >EVO Process</label></div>
+	<div id="rectangle2"  ng-click="AppCtrl.changePage(8);"><label class="undercircle" style="margin-left: 20px;">RSVP</label></div>
+	<div id="rectangle3"  ng-click="AppCtrl.changePage(3)"><label class="undercircle feedback">Feedback</label></div>
+<!-- </div> -->
+</div>

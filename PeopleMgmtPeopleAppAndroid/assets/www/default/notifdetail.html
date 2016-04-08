@@ -1,0 +1,39 @@
+<div class="redbg">
+ 
+   			 <div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(7)"></div> 
+             <div class="text-center">
+                <p class="pclass">NOTIFICATIONS</p>
+             </div> 
+        
+</div>
+<div class="container" style="background-color:white !important;height:530px;" ng-click="togglebody();">
+           <div class="list">
+                <div class="col-md-12 col-sm-12 col-xs-12 list-appstyle">
+                 <div class="col-md-12 col-sm-12 col-xs-12" >
+                    <li class="list-app" style="padding-top:0px !important;">
+                    	<span class="subtxt" style="font-size:14px !important;color:dark grey;">From: <b>{{soldet.user}}</b></span><br>
+                        <span class="subtxt" style="font-size:12px !important;color:light grey;">Sub: {{soldet.subject}}</span><br>
+                        <span class="subtxt" style="font-size:10px !important;color:red;">on {{soldet.date}}</span>
+                        
+                     </li>
+                    
+                    </div>
+		
+                </div>
+            </div>
+       
+     
+	
+	 <hr
+		style="border-color:red !important; border-width:2px;margin-top: 0.5em; margin-bottom: 0.5em;">
+<div class="span14 selectstyle3"><br>
+	Message <br><br>
+	<textarea id="mailbody"
+		style="height:110px !important; width: 90%;border-color:#d3d3d3;outline:none;font-size:12px!important;"readonly>{{soldet.detail}}</textarea>
+	</div>
+	<!-- <div class="form-actions">
+			<button id="tapchange" type="button" ng-click="AppCtrl.changePage(7)"
+				style="height: 55px !important; position: relative; top:100px;outline:none;"
+				class="btn  btn-default padset">Back</button>
+		</div> -->
+</div>

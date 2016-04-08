@@ -1,0 +1,68 @@
+
+<div class="redbg">
+ 
+   			<div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(2)"></div>
+             <div class="text-center">
+                <p class="pclass">FEEDBACK</p>
+             </div> 
+         <!--  <div class="fa fa-sign-out logoutdiv" ng-click="AppCtrl.changePage(1)">
+                  
+                </div> -->
+                <div class="imgham logoutdiv" ng-click="toggle()"></div>
+                <div id="rightpanel" pageslide ps-open="checked1" ps-push="true" style="background-color:#2a2a2a" ps-auto-close = "checked2">
+                    <div style="padding:20px" id="demo-right">
+                  <ul>
+                    	 <li id="abimg" class="slidemenu" ng-click="AppCtrl.changePage(9);"><img class="aboutimage"/><label class="labelpanel">About</label></li>
+                          <li id="notimg" class="slidemenu" ng-click="notifscreen(7);"><img class="notifimage"/><label class="labelpanel">Notifications</label></li>
+   						  <li id="logimg" class="slidemenu" ng-click="logout(1)"><img class="signoutimage"/><label class="labelpanel">Sign Out</label></li>
+   						   <li id="setimg" class="slidemenu" ng-model="collapsed" ng-click="collapsed=!collapsed"><img class="settingimage"/><label class="labelpanel">Settings</label>
+							<ul ng-show="collapsed">
+   								 <li class="slidesubmenu" ng-click="AppCtrl.changePage(6);"><label class="labelpanel lab">Change Password</label></li>
+    							
+    						</ul>
+   						  </li> 
+    				</ul> 
+    				    		      
+                      <!--   <a ng-click="toggle()" class="button" >Close</a> -->
+                    </div>
+                </div>
+    
+</div>
+<div class="greybg" id="tabs" ng-click="togglebody();">
+	<button class="butprop feedhw">Feedback</button>
+	<button class="butpropvote votehw" ng-click="newfunct(4)">Vote</button>
+	<button  class="butpropfunct functhw" ng-click="topfunc(5)">Top 5 Functionalities</button>
+</div>
+<div
+	style="background-color: white !important; height: 510px !important;" ng-click="togglebody();">
+	<label class="labell" style="color: black !important;">Area</label>
+	<div class="span12 selectstyle">
+		<select id="area"
+			class="span12 ng-pristine ng-valid ng-valid-required"
+			data-ng-model="area" data-ng-change="" style="height:28px !important;width:100%;">
+			<option value="" name="EVO Process" selected>EVO Process</option>
+			<option value="RSVP" name="RSVP">RSVP</option>
+			<option value="Feedback" name="Feedback">Feedback</option>
+			<option value="New Functionalit" name="New Functionalit">New
+				Functionality</option>
+			<option value="Others" name="Others">Others</option>
+		</select>
+	</div>
+	<br>
+	<label class="labell" style="color: black !important;">Description</label>
+	<div class="span12 selectstyle1">
+		<textarea id="describeval" style="height:48px !important;width:100%;border-color:transparent;" placeholder="describe here"></textarea>
+	</div>
+	<br> <label class="labell" style="color: black !important;">Comments</label>
+	<div class="span12 selectstyle2">
+		<textarea id="commentval" style="height:68px !important;width:100%;  border-color:transparent;" placeholder="write comment here"></textarea>
+	</div>
+	<div class="container">
+
+		<div class="form-actions">
+			<button id="tapchange" type="button" ng-click="sendfeedback(2)"
+				style="height: 45px !important; position: relative; top:100px;"
+				class="btn  btn-default padset">Submit</button>
+		</div>
+	</div>
+</div>

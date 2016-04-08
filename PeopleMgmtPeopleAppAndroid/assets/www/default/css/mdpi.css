@@ -1,0 +1,369 @@
+
+/* Stylesheet content from css/mdpi.css in folder common */
+
+/* Stylesheet content from css/main.css in folder common */
+
+/* Stylesheet content from css/main.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+.styling{
+	background-image:url(../images/mdpi/mdpi_splashScreen.png) !important; 
+	background-repeat: no-repeat !important;
+	/* height: 480px !important;
+ 	width: 320px !important;   */
+ 	background-color:#edeced !important;
+}
+.logologin{
+	/* background-image:url(../images/mdpi/loginlogoIBM.png) !important; 
+	background-repeat: no-repeat !important; */
+    margin-left: 130px;
+ 	padding-top: 57px;
+}
+.resetbut{
+	
+	background-color: white !important;
+	 width:100% !important;
+	height:22px !important;
+	 border-color:transparent;
+      
+	}
+.padset{
+	
+	background-color: #4c4cff !important;
+	 width:100% !important;
+	 color: white !important;
+	 height:22px !important;
+      
+	}
+ .padsetback{
+	
+	background-color: white !important;
+	 width:100% !important;
+	 color: black !important;
+	 height:22px !important;
+	  border-color:transparent !important;
+      
+	}
+.marginsetting{margin-top: 260px;
+
+	}
+.setting{	
+    border-style: solid !important;
+    border-width: 1px !important; 
+    border-color: #4c4cff;
+    color:#a1a3b5 !important;
+
+}
+
+.password{
+	background-image: url(../images/mdpi/ico_login_pw.png) !important;
+	background-position: 5% 30% !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	
+}
+.username{
+	background-image: url(../images/mdpi/ico_login_un.png) !important;
+	background-position: 5% 20%  !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	}
+#rectangle2{
+	margin-top:5px;
+	background-image: url(../images/mdpi/hm_icoRSVP.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:39%;
+	 position: relative;
+  left: 31%;
+}
+#rectangle2:hover{
+background-image:  url(../images/mdpi/hm_icoRSVPA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle1{	
+	margin-top:25px;
+	background-image: url(../images/mdpi/hm_icoEVO.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:39%;
+	 position: relative;
+  left: 31%;
+    
+}
+#rectangle1:hover{
+background-image:  url(../images/mdpi/hm_icoEVOA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle3{	
+	
+	margin-top:5px;
+	background-image: url(../images/mdpi/hm_icoFeedback.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:39%;
+	 position: relative;
+  left: 31%;
+    
+}
+#rectangle3:hover{
+background-image:  url(../images/mdpi/hm_icoFeedbackA.png) !important;
+background-repeat: no-repeat !important;
+}
+.undercircle
+{	position:relative;
+ 	top:110px;
+    left:20%; 
+    color:#4c4cff;
+}
+.feedback{
+	position:relative;
+ 	left:29% !important; 
+   
+}
+
+.labell{
+	
+	color: #4c4cff;
+	 margin-left: 20px; 
+	 margin-top: 20px; 
+	 font-size:14px;
+}
+
+
+.styled-button {
+	background: #5B74A8;
+	background: -moz-linear-gradient(top,#4c4cff 0%,#4c4cff 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#4c4cff), color-stop(100%,#4c4cff));
+	background: -webkit-linear-gradient(top,#4c4cff 0%,#4c4cff 100%);
+	background: -o-linear-gradient(top,#4c4cff 0%,#4c4cff 100%);
+	background: -ms-linear-gradient(top,#4c4cff 0%,#4c4cff 100%);
+	background: linear-gradient(top,#4c4cff 0%,#4c4cff 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4c4cff',endColorstr='#5B74A8',GradientType=0);
+	padding:2px 6px;
+	height:10px;
+	color:#fff;
+	font-family:'Helvetica',sans-serif;
+	font-size:11px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border:1px solid transparent;
+}
+
+.imgham{
+	background-image:url(../images/mdpi/hdr_icoMenu.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	height:50px;
+}
+.imgham:hover{
+	background-image:url(../images/mdpi/hdr_icoMenuA.png) !important; 
+	background-repeat: no-repeat !important;
+}
+.imgback{
+	background-image:url(../images/mdpi/hdr_icoBack.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	margin-left:0px;position: relative;top:38px;
+}
+
+.imgback:hover{
+	background-image:  url(../images/mdpi/hdr_icoBackA.png) !important;
+background-repeat: no-repeat !important;
+}
+.imgbackdiv{
+	  height: 32%;
+  	position: relative;
+  	top: 20px;
+  	left: 15px;
+}
+.logoutdiv{
+  margin-top: -44px;
+  position: relative;
+  float: right;
+  right: 13px;
+  
+}
+.pclass{
+    padding: 15px 0px 0px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+   	margin-top:-14px;
+   
+}
+
+.header{
+	margin-left:5% !important;
+	/* background-image:url(../images/ldpi/hdr_icoMenuA.png) !important; 
+background-repeat: no-repeat !important;
+background-position:5% 30% !important; */
+	
+}
+.fontm{
+	font-size:13px;
+	position: relative;
+	top:0px; 
+	margin-left:90px;
+	font-family:Roboto;
+}
+.fontcat{
+	font-size:12px;
+	position: relative;
+	top:7px; 
+	left:120px;
+	font-family:Roboto;
+	font-color:black;
+}
+.fontsub{
+	font-size:10px; 
+	margin-left: 3px;
+	font-family:Roboto;
+
+}
+.table{
+  width: 100%;
+  border-spacing:0;
+  margin:0;
+  border-color : #a8a8a8;
+  border: 1px solid #a8a8a8;
+  margin-left:0px;
+  margin-top:20px;
+	border-collapse: collapse;
+	text-align: center;
+	font-family:Roboto;
+}
+.table td,th{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-family:Roboto;
+  }
+  .lab
+{
+	font-size:13px !important;
+	padding-left:110px !important;
+	padding-top:14px !important;
+}
+.labelpanel{
+  padding-left: 60px;
+  font-size: 14px;
+  padding-top: 22px;
+  font-weight: lighter;
+}
+.requiredlabel{
+	  margin-left: 60%;
+      margin-top: -43px;
+}
+
+.aboutimage{
+	content: url('../images/mdpi/menuIco_About.png');
+	position:relative;
+	left:25px !important
+}
+
+#abimg:hover .aboutimage{
+content:  url('../images/mdpi/menuIco_AboutA.png');
+}
+.settingimage{
+	content: url('../images/mdpi/menuIco_Settings.png');
+	position:relative;
+	left:25px !important
+}
+#setimg:hover .settingimage{
+	content: url('../images/mdpi/menuIco_SettingsA.png');
+}
+.signoutimage{
+	content: url('../images/mdpi/menuIco_logout.png');
+	position:relative;
+	left:25px !important
+}
+#logimg:hover .signoutimage{
+	content: url('../images/mdpi/menuIco_logoutA.png');
+}
+.notifimage{
+	content: url('../images/mdpi/menuIco_Notif.png');
+	position:relative;
+	left:25px !important
+}
+#notimg:hover .notifimage{
+	content: url('../images/mdpi/menuIco_NotifA.png');
+}
+.vodalogo{
+content : url('../images/mdpi/logo_aboutPage.png');
+position:relative;
+  left: 40%;
+  margin-top: 30px;
+}
+.pabout{
+  position: relative;
+  color: black !important;
+  top: 50px;
+  left:100px;
+  font-weight: bold;
+}
+
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: grey;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
